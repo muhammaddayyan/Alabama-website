@@ -33,7 +33,8 @@ body{
   display: flex;
   align-items: center;
   padding: 15px;
-  width: 99.5%;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .head-box-2{
@@ -107,11 +108,6 @@ body{
   font-size: 14px;
   line-height: 17.07px;
   color: #999999;
-  transition: 0.5s;
-}
-
-.zip-btn:hover{
-  background: #dddddd;
 }
 
 .zip-img-1{
@@ -703,7 +699,7 @@ box-shadow: 2px 0px 12px #c7c7c7;
 }
 
 .provide{
-  width: 1160px;
+  width: 1145px;
   display: flex;
   margin-top: 20px;
   background-color: #000;
@@ -937,6 +933,16 @@ li .ul-1{
   margin-left: 97px;
 }
 
+.media-1{
+  display: flex;
+  gap: 30px;
+  
+}
+.media-2{
+  gap: 30px;
+  display: flex;
+}
+
 .provide-hr{
   margin-top: 12px;
 }
@@ -1031,7 +1037,34 @@ li .ul-1{
   margin-top: 15px;
 }
 
+.sec-pro{
+  display: flex;
+  gap: 35px;
+}
+
 .pro-box-1{
+  height: 420px;
+  width: auto;
+  background-color: #ffffff;
+  margin-bottom: 90px;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 2px 0px 14px #c7c7c7;
+}
+
+.pro-box-1-3{
+  height: 420px;
+  width: auto;
+  background-color: #ffffff;
+  margin-bottom: 90px;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 2px 0px 14px #c7c7c7;
+}
+
+.pro-box-2-1{
   height: 420px;
   width: auto;
   background-color: #ffffff;
@@ -1214,6 +1247,10 @@ li .ul-1{
   margin-bottom: 50px;
 }
 
+.faqs{
+  margin-inline: auto;
+}
+
 .faq-head{
   font-size: 28px;
   font-family: "Lato", sans-serif;
@@ -1350,6 +1387,13 @@ li .ul-1{
   margin-bottom: 70px;
 }
 
+.sec-last{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1340px;
+}
+
 .sec-1{
   background-color: #0070ff;
   display: flex;
@@ -1444,17 +1488,19 @@ li .ul-1{
   padding: 65px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .last-1-5{
-  gap: 165px;
+  gap: 70px;
+  align-items: center;
   display: flex;
 }
 
 .last-hr{
-  width: 1490px;
+  width: 1190px;
   margin-top: 80px;
-  margin-left: 60px;
+  margin-inline: auto;
 }
 
 .last-1{
@@ -1573,9 +1619,9 @@ li .ul-1{
 .footer-1{
   display: flex;
   justify-content: space-between;
-  width: 1490px;
-  margin-left: 55px;
+  width: 1190px;
   margin-top: 25px;
+  margin-inline: auto;
 }
 
 .local{
@@ -1605,3 +1651,164 @@ li .ul-1{
   align-items: center;
   gap: 20px;
 }
+
+@media screen and (max-width: 1325px ) {
+  .media-1{
+    flex-direction: column;
+  }
+
+  .media-2{
+    flex-direction: column;
+  }
+  
+  .head{
+    height: 820px;
+  }
+  
+  .alabama-internet-2{
+    width: 1200px;
+  
+  }
+  .alabama-internet-2-3 {
+    width: 1200px;
+  }
+
+  .alabama-internet-3-4{
+    margin-left: 15px;
+  }
+
+  .alabama-internet-3{
+    margin-left: 15px;
+  }
+  
+  .provide{
+    margin-left: 15px;
+
+  }
+  .provide-1-2 {
+    margin-left: 15px;
+  }
+  
+  .sec-pro{
+    display: flex;
+  }
+  
+  .sec-tes-1{
+    flex-direction: column;
+  }
+  
+  .provide-box{
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .states-1{
+    width: 1170px;
+  }
+
+  .states-1-5{
+    width: 1170px;
+  }
+
+  .states-1-8{
+    width: 1170px;
+  }
+
+  .faq{
+    width: 1190px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sec-1{
+    width: 1170px;
+  }
+}
+
+@media screen and (max-width: 1280px ) {
+  .provide-text-1{
+    font-size: 11px;
+    width: 140px;
+  }
+
+  .provide-text-at{
+    font-size: 11px;
+  }
+
+  .provide-text-max{
+    font-size: 11px;
+  }
+
+  .provide-text-2{
+    font-size: 11px;
+  }
+
+  .provide-text-area{
+    font-size: 11px;
+  }
+  
+  .provide-test-1{
+    gap: 15px;
+    margin-left: 5px;
+  }
+
+  li .ul-1{
+    font-size: 12px;
+  }
+  
+  ol li{
+    width: 120px;
+  }
+
+  li::marker{
+    font-size: 12px;
+  }
+
+  .dollar-50{
+    font-size: 12px;
+  }
+
+  .mobile-1{
+    gap: 25px;
+  }
+
+  .mbps-1{
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .order-1{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .percen-1{
+    font-size: 12px;
+  }
+
+  .provide-test-3{
+    margin-left: 50px;
+    gap: 65px;
+  }
+
+  .mobile-3{
+    margin-left: 55px;
+    gap: 95px;
+  }
+
+  .provide{
+    width: 1065px;
+    box-sizing: border-box;
+  }
+  
+  
+  .alabama-internet-3{
+    width: 1050px;
+  }
+
+  .alabama-internet-2{
+    width: 1090px;
+  }
+}
+
