@@ -647,7 +647,6 @@ li::marker {
 
 .again-para-1{
   font-family: "Lato", sans-serif;
-  /* margin-top: -20px; */
   font-size: 18px;
   font-weight: 700;
 }
@@ -658,6 +657,7 @@ li::marker {
   display: flex;
   margin-inline: auto;
   max-width: 1150px;
+  min-width: 810px;
   padding: 20px 15px 10px 15px;
   border-radius: 25px;
   flex-direction: column;
@@ -667,6 +667,18 @@ li::marker {
   display: flex;
   flex-direction: column;
   gap: 30px;
+	max-width: 100%;
+	overflow-x: auto;
+}
+
+.main-again-2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+	max-width: 100%;
+	overflow-x: auto;
+	margin-top: 45px;
+	margin-bottom: 25px;
 }
 
 .again-3{
@@ -675,6 +687,7 @@ li::marker {
   display: flex;
   margin-inline: auto;
   max-width: 1150px;
+	min-width: 810px;
   padding: 20px 15px 10px 15px;
   border-radius: 25px;
   flex-direction: column;
@@ -1224,7 +1237,8 @@ li .ul-1 {
 
 .pro-box-2 {
 	background: #000;
-	width: 395px;
+	/* width: 395px; */
+	box-sizing: border-box;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	display: flex;
@@ -1383,7 +1397,7 @@ li .ul-1 {
 .faq {
 	background-color: #ffffff;
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	flex-direction: column;
 	padding: 15px;
 	margin-bottom: 50px;
@@ -1397,7 +1411,9 @@ li .ul-1 {
 	font-size: 28px;
 	font-family: "Lato", sans-serif;
 	color: #0070ff;
+	margin-inline: auto;
 	font-weight: 900;
+	text-align: center;
 	margin-top: 75px;
 }
 
@@ -1868,8 +1884,8 @@ li .ul-1 {
 
 	.faq {
 		width: 1190px;
-		align-items: center;
-		justify-content: center;
+		/* align-items: center; */
+		/* justify-content: center; */
 	}
 
 	.sec-1 {
@@ -2090,10 +2106,6 @@ li .ul-1 {
 	.privacy {
 		font-size: 11px;
 	}
-
-  .again-2{
-    overflow-x: scroll;
-  }
 }
 
 @media screen and (max-width: 1152px) {
@@ -2264,7 +2276,7 @@ li .ul-1 {
 
 	.faq {
 		background-color: #f5f5f5;
-		width: 600px;
+		width: 400px;
 	}
 }
 
@@ -2314,4 +2326,255 @@ li .ul-1 {
   .update{
     font-size: 20px;
   }
+}
+
+@media screen and (max-width: 870px) {
+	.footer-2{
+		flex-direction: column;
+		gap: 15px;
+		margin-inline: auto;
+		align-items: center;
+	}
+
+	.footer-1{
+		flex-direction: column;
+	}
+
+	.footer-3{
+		margin-inline: auto;
+		margin-top: 15px;
+	}
+
+	.last-1-5{
+		flex-direction: column;
+		width: auto;
+	}
+
+	.last-1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.best{
+		text-align: center;
+	}
+
+	.tvs{
+		margin-inline: auto;
+	}
+
+	.browse-btn{
+		margin-top: 40px;
+	}
+
+	.last-img{
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 690px) {
+	.head-box-3 select{
+		font-size: 8px;
+	}
+
+	.head-box-3{
+		gap: 5px;
+		margin-top: 5px;
+	}
+
+	.vector-2{
+		width: 220px;
+	}
+
+	.tv{
+		font-size: 20px;
+	}
+
+	.find-para-1{
+		width: 300px;
+	}
+
+	.area-para-1{
+		width: 300px;
+	}
+
+	.top-para-1{
+		width: 300px;
+	}
+
+	.faq-head{
+		font-size: 22px;
+		width: 300px;
+		text-align: center;
+		margin-inline: inherit;
+	}
+
+	.what{
+		font-size: 10px;
+	}
+
+	.states-1{
+		width: 300px;
+	}
+	
+	.states-1-5{
+		width: 300px;
+	}
+
+	.states-1-8{
+		width: 300px;
+	}
+
+	.inp{
+		font-size: 10px;
+		width: 70px;
+	}
+
+	.s-faq{
+		font-size: 22px;
+	}
+
+	.email{
+		width: 10px;
+	}
+
+	.inp-2{
+		font-size: 10px;
+	}
+
+	.loc{
+		gap: 10px;
+	}
+
+	.loc-sign img {
+		width: 20px;
+	}
+
+	.sig-loc{
+    font-size: 12px;
+	}
+
+	.loc-sign{
+		width: 70px;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.sec-button{
+		width: 265px;
+	}
+
+	.update{
+		font-size: 15px;
+	}
+
+	.vec-loc{
+		width: 10px;
+	}
+
+  .faq{
+		width: 370px;
+	}
+
+	.stay{
+		width: 300px;
+		text-align: center;
+	}
+
+	.sec-1{
+		width: 260px;
+	}
+
+	.city{
+		width: 300px;
+	}
+
+	.right-btn-2 a {
+		font-size: 10px;
+	}
+
+	.right-btn-2 button {
+		width: 100px;
+		padding: 10px;
+	}
+
+	.pro-box-1{
+		width: 310px;
+	}
+
+	.stars{
+		width: 60px;
+	}
+
+	.star{
+		font-size: 10px;
+	}
+
+	.vector-para{
+		font-size: 10px;
+	}
+
+	.raiings-1{
+		margin-top: 65px;
+	}
+
+	.view-buton-3{
+		font-size: 10px;
+		left: 61%;
+		width: 110px;
+	}
+
+	.raiings{
+		margin-top: 65px;
+	}
+
+	.pro-box-2-1{
+		width: 310px;
+	}
+
+	.pro-box-1-3{
+		width: 310px;
+	}
+
+  .states-3{
+		margin-left: 40px;
+	}
+
+	.states-link{
+		font-size: 10px;
+	}
+
+	.states{
+		font-size: 10px;
+	}
+	
+	.alabama-area{
+		font-size: 20px;
+	}
+
+	.your{
+		font-size: 20px;
+	}
+
+	.head-box-1{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.local{
+		font-size: 11px;
+	}
+
+	.privacy{
+		font-size: 14px;
+	}
+
+	.footer-3 img{
+		width: 25px;
+	}
+
+	.footer-3{
+		margin-top: 25px;
+	}
 }
